@@ -1,8 +1,12 @@
 public class TypeConversion {
   public static void main(String[] args) {
-    int a = 25;
-    long b = a;
-    System.out.println(b);
+    // int a = 25;
+    // long b = a;
+    // System.out.println(b);
+
+    long b = 25;
+    int a = b;
+    System.out.println(a);
   }
 }
 
