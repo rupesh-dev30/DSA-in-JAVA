@@ -8,7 +8,12 @@ public class largestNumber {
 
     if(a>b){
       System.out.println(a + " is greater than "+ b);
-    } else {
+    } 
+    else if(a==b){
+      System.out.println(a + " is equall to "+ b);
+    }
+    
+    else {
       System.out.println(b + " is greater than "+ a);
     }
 
