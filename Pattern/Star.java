@@ -6,8 +6,8 @@ public class Star {
     int number = sc.nextInt();
     sc.close();
 
-    for(int i=1 ; i<=number ; i++){
-      for(int j=0 ; j<i ; j++){
+    for(int i=0 ; i<number ; i++){
+      for(int j=0 ; j<i+1 ; j++){
         System.out.print("* ");
       }
       System.out.println();
