@@ -31,14 +31,26 @@ public class TypePromotionInExpression {
 
     */
 
+    /* 
+
     short a = 5;
     byte b = 25;
     char c = 'c';
     byte bt = (byte) (a+b+c);
     System.out.println(bt);
 
+    */
+
+    int a = 10;
+    float b = 20.25f;
+    long c = 25;
+    double d = 30;
+    double ans = a+b+c+d;
+    System.out.println(ans);
   }
 }
 
 //byte , char , short convert it to int and then execute
+//if any of the operand is long, float or double then result is long
+
 //Type conversion only for experession not for variable
