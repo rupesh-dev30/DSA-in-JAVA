@@ -9,10 +9,8 @@ public class ReverseNumber {
     
     while(number != 0){
       int rem = number%10;
-      reverse = reverse*10 + rem;
+      System.out.print(rem);
       number = number/10;
     }
-
-    System.out.println("Reverse number is " + reverse);
   }
 }
