@@ -1,7 +1,10 @@
 public class TypeCasting {
   public static void main(String Args[]){
     float a = 25.8f;
-    int b = a;
+    // int b = a;
+    // System.out.println(b);
+
+    int b = (int) a;
     System.out.println(b);
   }
 }
