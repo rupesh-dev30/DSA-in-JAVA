@@ -1,16 +1,16 @@
 public class TypeConversion {
   public static void main(String[] args) {
-    // int a = 25;
-    // long b = a;
-    // System.out.println(b);
+    int a = 25;
+    long b = a;
+    System.out.println(b);
 
-    long b = 25;
-    int a = b;
-    System.out.println(a);
+    // long b = 25;
+    // int a = b;
+    // System.out.println(a);
   }
 }
 
-
+//byte -> short -> int -> float -> long -> double
 
 // small size to large size is possible but large size to small size is not possible
 
