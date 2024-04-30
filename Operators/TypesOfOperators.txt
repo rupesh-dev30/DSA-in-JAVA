@@ -1,0 +1,11 @@
+
+    1) Arithmetic Operator 
+    2) Relational Operator
+    3) Logical Operator
+    4) Bitwise Operator
+    5) Assignment Operator
+    6) Conditional Operator
+    7) Increment/Decrement Operator
+    8) Unary Operator
+    9) Ternary Operator
+    10) instanceof Operator
