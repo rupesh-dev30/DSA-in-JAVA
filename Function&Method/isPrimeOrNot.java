@@ -3,6 +3,9 @@ import java.math.*;
 
 public class isPrimeOrNot {
   public static String isPrime(int num) {
+    if(num == 1){
+      return "Neither prime nor composite!";
+    }
     int i = 2;
     while(i <= Math.sqrt(num)){
       if(num%i == 0){
