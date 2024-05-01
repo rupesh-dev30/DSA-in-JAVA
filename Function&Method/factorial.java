@@ -1,12 +1,12 @@
 import java.util.Scanner;
 
 public class factorial {
-  public static int factorial(int num){
-    int fact = 1;
+  public static int fact(int num){
+    int f = 1;
     for(int i=2 ; i<=num ; i++){
-      fact *= i;
+      f *= i;
     }
-    return fact;
+    return f;
   }
 
   public static void main(String[] args) {
@@ -14,7 +14,7 @@ public class factorial {
     int num = sc.nextInt();
     sc.close();
 
-    int result = factorial(num);
+    int result = fact(num);
     System.out.println(result);
   }
 }
