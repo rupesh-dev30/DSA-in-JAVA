@@ -11,6 +11,16 @@ public class KadaneAlgoritm {
       }
       maxSum = Math.max(currentSum,maxSum);
     }
+
+    if(maxSum == 0){
+      maxSum = Integer.MIN_VALUE;
+      for(int i=0; i<arr.length ; i++){
+        if(arr[i] > maxSum){
+          maxSum = arr[i];
+        }
+      }
+      return maxSum;
+    }
     return maxSum;
   }
   public static void main(String[] args) {
