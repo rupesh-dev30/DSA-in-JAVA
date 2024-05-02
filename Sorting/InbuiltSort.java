@@ -8,5 +8,12 @@ public class InbuiltSort {
     for(int i=0 ; i<arr.length; i++){
       System.out.print(arr[i]+" ");
     }
+    System.out.println();
+
+    int[] arr1 = { 4,7,2,17,78,8,9,1 };
+    Arrays.sort(arr1, 0 , 3);
+    for(int i=0 ; i<arr1.length; i++){
+      System.out.print(arr1[i]+" ");
+    }
   }
 }
