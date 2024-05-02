@@ -1,5 +1,3 @@
-import java.util.*;
-
 public class KadaneAlgoritm {
   public static int kadaneAlgorithm(int arr[]){
     int maxSum = Integer.MIN_VALUE;
