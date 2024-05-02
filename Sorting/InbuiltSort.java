@@ -23,5 +23,13 @@ public class InbuiltSort {
     for(int i=0 ; i<arr2.length; i++){
       System.out.print(arr2[i]+" ");
     }
+
+    System.out.println();
+
+    Integer[] arr3 = { 4,7,2,17,78,8,9,1 };
+    Arrays.sort(arr3, 0, 3, Collections.reverseOrder());
+    for(int i=0 ; i<arr3.length; i++){
+      System.out.print(arr3[i]+" ");
+    }
   }
 }
