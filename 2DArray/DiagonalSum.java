@@ -1,14 +1,24 @@
 public class DiagonalSum {
   public static int diagonalSum(int[][] arr){
     int sum = 0;
+    // for(int i=0 ; i<arr.length; i++){
+    //   for(int j=0 ; j<arr[0].length ; j++){
+    //     if(i == j){
+    //       sum += arr[i][j];
+    //     }
+    //     else if(i+j == arr.length-1){
+    //       sum += arr[i][j];
+    //     }
+    //   }
+    // }
+
     for(int i=0 ; i<arr.length; i++){
-      for(int j=0 ; j<arr[0].length ; j++){
-        if(i == j){
-          sum += arr[i][j];
-        }
-        else if(i+j == arr.length-1){
-          sum += arr[i][j];
-        }
+      //primary diagnoal
+      sum += arr[i][i];
+
+      //secondary diagnoal
+      if(i != arr.length-1-i){
+        sum += arr[i][arr.length-i-1];
       }
     }
     return sum;
