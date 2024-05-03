@@ -6,7 +6,7 @@
 
 public class StringCompression {
   public static String stringCompression(String str){
-    String newStr = "";
+    StringBuilder newStr = new StringBuilder();
 
     for(int i=0 ; i<str.length() ; i++){
       Integer count = 1;
@@ -14,12 +14,12 @@ public class StringCompression {
         count++;
         i++;
       }
-      newStr += str.charAt(i);
+      newStr.append(str.charAt(i));
       if(count > 1){
-        newStr += count.toString();
+        newStr.append(count.toString());
       }
     }
-    return newStr;
+    return newStr.toString();
   }
   public static void main(String[] args) {
     String str = "aabc";
