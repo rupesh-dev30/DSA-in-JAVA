@@ -1,5 +1,5 @@
 public class DataTypeInJava {
-  public static void main(String Args[]){
+  public static void main(Strings Args[]){
     byte b = 127;
     System.out.println(b);
     char ch = 'a';

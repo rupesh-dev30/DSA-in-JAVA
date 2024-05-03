@@ -9,7 +9,7 @@ public class ReverseAnArray {
       j--;
     }
   }
-  public static void main(String args[]){
+  public static void main(Strings args[]){
     int arr[] = {1,2,3,4,5,6,7,8,9,10};
     reverseAnArray(arr);
 

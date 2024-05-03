@@ -7,7 +7,7 @@ public class CallByValue {
     // System.out.println("Value of a is "+ a);
     // System.out.println("Value of a is "+ b);
   }
-  public static void main(String[] args) {
+  public static void main(Strings[] args) {
     int a = 5;
     int b = 8;
     System.out.println("Before Swapping");

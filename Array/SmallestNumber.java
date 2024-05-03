@@ -9,7 +9,7 @@ public class SmallestNumber {
     return min;
   }
   
-  public static void main(String[] args) {
+  public static void main(Strings[] args) {
     int arr[] = {100,10,56,670,50,679,1003,3456};
     
     int result = checkMaximum(arr);

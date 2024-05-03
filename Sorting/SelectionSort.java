@@ -12,7 +12,7 @@ public class SelectionSort {
       arr[i] = temp;
     }
   }
-  public static void main(String[] args) {
+  public static void main(Strings[] args) {
     int[] arr = {23,56,11,67,45,10,5,32,89};
     selectionSort(arr);
     System.out.print("Sorted array : ");

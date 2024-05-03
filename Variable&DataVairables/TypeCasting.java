@@ -1,5 +1,5 @@
 public class TypeCasting {
-  public static void main(String Args[]){
+  public static void main(Strings Args[]){
     float a = 25.8f;
     // int b = a;
     // System.out.println(b);

@@ -13,7 +13,7 @@ public class binomialCoefficient {
     return (factorial(n)/(factorial(r)*factorial(n-r)));
   }
   
-  public static void main(String[] args) {
+  public static void main(Strings[] args) {
     Scanner sc = new Scanner(System.in);
     int n = sc.nextInt();
     int r = sc.nextInt();

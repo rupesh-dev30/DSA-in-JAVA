@@ -1,5 +1,5 @@
 public class TypeConversion {
-  public static void main(String[] args) {
+  public static void main(Strings[] args) {
     int a = 25;
     long b = a;
     System.out.println(b);

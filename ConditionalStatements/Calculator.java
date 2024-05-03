@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Calculator {
-  public static void main(String args[]){
+  public static void main(Strings args[]){
     Scanner sc = new Scanner(System.in);
     int a = sc.nextInt() ;
     char operator = sc.next().charAt(0);

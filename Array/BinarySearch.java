@@ -21,7 +21,7 @@ public class BinarySearch {
     return false;
   }
 
-  public static void main(String[] args) {
+  public static void main(Strings[] args) {
     int arr[] = { 10 , 15, 18, 24, 80, 102, 150, 190, 234, 456, 510, 620};
 
     Scanner sc = new Scanner(System.in);

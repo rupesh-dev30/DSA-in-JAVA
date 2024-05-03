@@ -5,7 +5,7 @@ public class ArraysAsArgument {
     }
   }
 
-  public static void main(String[] args) {
+  public static void main(Strings[] args) {
 
     int marks[] = { 98, 96, 99 };
     update(marks);

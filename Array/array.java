@@ -1,11 +1,11 @@
 import java.util.Scanner;
 
 public class array {
-  public static void main(String args[]){
+  public static void main(Strings args[]){
     int marks[] = new int[10];
     // int numbers[] = {1,2,3};
 
-    String fruitsName[] = {"Apple", "Mango", "Banana" };
+    Strings fruitsName[] = {"Apple", "Mango", "Banana" };
     System.out.println(fruitsName[0]);
     System.out.println(fruitsName[1]);
     System.out.println(fruitsName[2]);  

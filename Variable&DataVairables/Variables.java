@@ -1,5 +1,5 @@
 public class Variables {
-  public static void main(String arg[]){
+  public static void main(Strings arg[]){
     int a = 10;
     int b = 20;
     System.out.println(a);

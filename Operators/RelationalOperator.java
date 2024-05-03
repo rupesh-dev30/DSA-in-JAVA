@@ -1,5 +1,5 @@
 public class RelationalOperator {
-  public static void main(String Args[]){
+  public static void main(Strings Args[]){
     int a = 5;
     int b = 6;
 

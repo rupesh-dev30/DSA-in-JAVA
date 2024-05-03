@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Product {
-  public static void main(String Args[]){
+  public static void main(Strings Args[]){
     Scanner sc = new Scanner(System.in);
     float a = sc.nextFloat();
     float b = sc.nextFloat();

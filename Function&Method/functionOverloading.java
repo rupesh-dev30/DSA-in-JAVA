@@ -11,7 +11,7 @@ public class functionOverloading {
     return a+b+c+d;
   }
 
-  public static void main(String[] args) {
+  public static void main(Strings[] args) {
     int a = 4, b = 5, c = 2, d = 3;
 
     int result1 = sum(a,b);

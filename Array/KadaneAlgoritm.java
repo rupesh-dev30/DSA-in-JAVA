@@ -21,7 +21,7 @@ public class KadaneAlgoritm {
     }
     return maxSum;
   }
-  public static void main(String[] args) {
+  public static void main(Strings[] args) {
     int arr[] = {-2,-3,4,-1,-2,1,5,-3};
     int result = kadaneAlgorithm(arr);
     System.out.println(result);

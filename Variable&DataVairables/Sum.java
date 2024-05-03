@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Sum {
-  public static void main(String Args[]){
+  public static void main(Strings Args[]){
     Scanner sc = new Scanner(System.in);
     int a = sc.nextInt();
     int b = sc.nextInt();

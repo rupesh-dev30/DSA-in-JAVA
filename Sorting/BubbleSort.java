@@ -10,7 +10,7 @@ public class BubbleSort {
       }
     }
   }
-  public static void main(String[] args) {
+  public static void main(Strings[] args) {
     int[] arr = {23,56,11,67,45,10,5,32,89};
     bubbleSort(arr);
     System.out.print("Sorted array : ");

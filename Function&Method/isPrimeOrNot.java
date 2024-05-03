@@ -2,7 +2,7 @@ import java.util.Scanner;
 import java.math.*;
 
 public class isPrimeOrNot {
-  public static String isPrime(int num) {
+  public static Strings isPrime(int num) {
     if(num == 1){
       return "Neither prime nor composite!";
     }
@@ -15,13 +15,13 @@ public class isPrimeOrNot {
     }
     return "Prime Number!";
   }
-  public static void main(String[] args) {
+  public static void main(Strings[] args) {
     Scanner sc = new Scanner(System.in);
     System.out.println("Enter a number: ");
     int num = sc.nextInt();
     sc.close();
 
-    String result = isPrime(num);
+    Strings result = isPrime(num);
     System.out.println(result);
   }
 }

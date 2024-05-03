@@ -1,5 +1,5 @@
 public class IfElse{
-  public static void main(String[] args) {
+  public static void main(Strings[] args) {
     int age = 22;
     if(age>18){
       System.out.println("You are eligible to Vote");

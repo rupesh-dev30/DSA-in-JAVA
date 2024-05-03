@@ -9,7 +9,7 @@ public class overloadingDatatype {
     return a + b;
   }
 
-  public static void main(String[] args) {
+  public static void main(Strings[] args) {
     int a = 10, b = 20;
     float c = 15.9f, d = 23.4f;
     double e = 12.45, f = 10.43;

@@ -8,7 +8,7 @@ public class PairsInAnArray {
     }
   }
 
-  public static void main(String[] args) {
+  public static void main(Strings[] args) {
     int arr[] = {2,4,6,8,10};
     //output: (2,4), (2,6) , (2,8), (2,10) ...
     //total number of pairs = n(n+1)/2

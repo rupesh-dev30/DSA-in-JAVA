@@ -2,7 +2,7 @@ import java.util.Arrays;
 import java.util.Collections;
 
 public class InbuiltSort {
-  public static void main(String[] args) {
+  public static void main(Strings[] args) {
     int[] arr = {4,2,3,1,5};
     Arrays.sort(arr);
     System.out.print("Sorted array : ");

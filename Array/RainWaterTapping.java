@@ -25,7 +25,7 @@ public class RainWaterTapping {
     }
     return trappedWater;
   }
-  public static void main(String[] args) {
+  public static void main(Strings[] args) {
     int height[] = {4,2,0,6,3,2,5};
     int result = trappedRainWater(height);
     System.out.println(result);

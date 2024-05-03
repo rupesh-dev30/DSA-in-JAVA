@@ -20,7 +20,7 @@ public class MaxSubArraySumPrefixSum {
     }
     return max;
   }
-  public static void main(String[] args) {
+  public static void main(Strings[] args) {
     int arr[] = {1,-2,6,-1,3};
     int result = prefixSum(arr);
     System.out.println(result);

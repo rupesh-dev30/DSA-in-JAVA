@@ -12,7 +12,7 @@ public class DecimalToBinary {
     }
     return binary;
   }
-  public static void main(String[] args) {
+  public static void main(Strings[] args) {
     Scanner sc = new Scanner(System.in);
     int num = sc.nextInt();
     sc.close();

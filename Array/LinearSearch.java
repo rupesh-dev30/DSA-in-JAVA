@@ -8,7 +8,7 @@ public class LinearSearch {
     return false;
   }
 
-  public static void main(String args[]){
+  public static void main(Strings args[]){
     int numbers[] = { 2,4,6,8,10,12,16,18};
     int key = 101;
 

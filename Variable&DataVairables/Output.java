@@ -1,5 +1,5 @@
 public class Output {
-  public static void main(String Args[]){
+  public static void main(Strings Args[]){
     System.out.println("Hello World");
     System.out.println("Hello World");
     System.out.print("Hello Dniya ");
