@@ -11,7 +11,7 @@
      mask & n
 */
 
-public class Operations {
+public class GetParticularPositionBit {
   public static void main(String[] args) {
     int n = 1100;
     int i = 2;
