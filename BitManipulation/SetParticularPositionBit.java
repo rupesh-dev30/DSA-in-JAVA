@@ -1,5 +1,5 @@
 /*
-  1) Get ith bit
+  2) Set ith bit
                   1 0 0 0 1 0 0 1 1 0 0
      position :  10 9 8 7 6 5 4 3 2 1 0
 
@@ -10,7 +10,7 @@
 
      get ith bit :
      mask = 1 << i
-     mask & n
+     mask | n
 */
 
 public class SetParticularPositionBit {
