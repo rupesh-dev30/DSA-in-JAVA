@@ -1,0 +1,12 @@
+Bitwise Operators:
+
+Binary AND &
+Binary OR |
+Binary XOR ^
+Binary One's Complement ~
+Binary Left Shift <<
+Binary Right Shift >>
+
+
+
+double (&& ||)  is conditional statement
