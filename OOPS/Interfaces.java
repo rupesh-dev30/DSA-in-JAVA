@@ -25,6 +25,10 @@ public class Interfaces {
   public static void main(String[] args) {
     Queen q = new Queen();
     q.moves();
+
+    Beer b = new Beer();
+    b.eat();
+
   }
 }
 
@@ -47,5 +51,27 @@ class Rook implements ChessPlayer{
 class King implements ChessPlayer{
   public void moves(){
     System.out.println("up, down, left, right, diagonal");
+  }
+}
+
+interface Herbivores{
+  void eatPlants();
+}
+
+interface Carnivores{
+  void eatMeat();
+}
+
+class Beer implements Herbivores, Carnivores{
+  public void eatPlants(){
+    System.out.println("Yes, it eat plants");
+  }
+  public void eatMeat(){
+    System.out.println("Yes, it eat meats");
+  }
+
+  public void eat(){
+    eatPlants();
+    eatMeat();
   }
 }
