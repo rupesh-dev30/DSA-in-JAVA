@@ -25,6 +25,14 @@
 
 public class Abstraction {
   public static void main(String[] args) {
+    Mustang myHorse = new Mustang();
+    //Animal -> Horse -> Mustang
+    System.out.println();
+    System.out.println();
+    System.out.println();
+    System.out.println();
+
+
     Horse h = new Horse();
     h.eat();
     h.walk();
@@ -33,6 +41,8 @@ public class Abstraction {
     Chicken c = new Chicken();
     c.eat();
     c.walk();
+
+    
 
     //Not possible
     // Animal a = new Animal() {};
@@ -46,6 +56,7 @@ abstract class Animal{
 
   //Constructor
   Animal(){
+    System.out.println("Animal Constructor Called");
     color = "brown";
   }   
 
@@ -59,12 +70,22 @@ abstract class Animal{
 }
 
 class Horse extends Animal{
+  Horse(){
+    System.out.println("Horse Constructor Called");
+  }
+
   void changeColor(){
     color = "dark brown";
   }
 
   void walk(){
     System.out.println("Walks on 4 legs!");
+  }
+}
+
+class Mustang extends Horse{
+  Mustang(){
+    System.out.println("Mustang Constructor Called!");
   }
 }
 
