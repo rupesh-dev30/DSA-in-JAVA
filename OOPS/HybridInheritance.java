@@ -44,6 +44,9 @@ class Fish extends Animal{
 }
 
 class Shark extends Fish{
-  System.out.println("Largest Fish");
+
+  void character(){
+    System.out.println("Largest Fish");
+  }
 }
 
