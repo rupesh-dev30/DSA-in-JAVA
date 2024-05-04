@@ -11,6 +11,10 @@
     1. Default Constructor / Non Parameterized Constructor
     2. Parameterized Constructor
     3. Copy Constructor
+
+
+
+    "GO THROUGH CONSTRUCTOR CHAINING"
   
 */
 
@@ -21,6 +25,7 @@ public class Constructor {
 
     //Default Constructor
     Student s1 = new Student();
+    System.out.println(s1);
 
     //Parametrized Contructor
     Student s2 = new Student("Rupesh", 2236977);
