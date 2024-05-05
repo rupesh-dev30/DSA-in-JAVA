@@ -5,7 +5,6 @@ public class Factorial {
     if(num == 1 || num == 0){
       return 1;
     }
-
     int fact = num * factorial(num - 1);
     return fact;
   }
