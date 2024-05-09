@@ -6,7 +6,8 @@ public class powerOptimized {
       return 1;
     }
 
-    int halfPowerSquare = power(x , n/2) * power(x, n/2);
+    int halfPower = power(x , n/2);
+    int halfPowerSquare = halfPower * halfPower;
 
     if(n%2 != 0){
       halfPowerSquare = x * halfPowerSquare;
