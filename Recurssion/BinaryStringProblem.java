@@ -16,11 +16,10 @@ public class BinaryStringProblem {
       System.out.println(str);
       return;
     }
+    
+    printBinaryString(n-1, 0, str+"0");
     if(lastPlace == 0){
-      printBinaryString(n-1, 0, str+"0");
       printBinaryString(n-1, 1, str+"1");
-    } else {
-      printBinaryString(n-1, 0, str+"0");
     }
   }
   public static void main(String[] args) {
