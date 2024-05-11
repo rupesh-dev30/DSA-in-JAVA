@@ -8,7 +8,7 @@ public class BackTracingArrays{
     //Recurssion
     arr[index] = val;
     changeArray(arr, index+1, val+1);
-    arr[index] = arr[index] - 2;
+    arr[index] = arr[index] - 2;  //BackTracking Step
   }
 
   public static void printArray(int arr[]){
