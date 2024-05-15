@@ -7,6 +7,19 @@
       Down -> X+1, Y
       Right -> X, Y+1
 
+
+      Another Approach or trick to solve this question
+
+      Using permutation
+        As we know in this problem, whenever we reach to destination, we travel right = m-1 and down = n-1
+
+        1) Total Character = n-1 + m-1
+            Permutation (DD RR -> DDRR, DRDR, DRRD ...)
+        2) Repeating Character 
+            (n-1)D and (m-1)R
+        3) (n-1 + m-1)! / (n-1)! (m-1)!
+
+
 */
 
 public class GridWays {
@@ -16,7 +29,6 @@ public class GridWays {
     } else if(i==n || j==n){    //boundary condition
       return 0;
     }
-
 
     int w1 = gridWays(i+1, j, n, m);
     int w2 = gridWays(i, j+1, n, m);
