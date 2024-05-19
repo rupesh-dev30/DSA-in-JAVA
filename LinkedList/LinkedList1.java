@@ -63,8 +63,20 @@ public class LinkedList1 {
   }
 
   //Delete first node in linked list
-  public void deleteFirst(){
+  public int deleteFirst(){
+    if(size == 0){
+      System.out.println("Linked list is infinity!");
+      return Integer.MIN_VALUE;
+    } else if(size == 1){
+      int val = head.data;
+      head = tail = null;
+      size--;
+      return val;
+    }
+    int val = head.data;
     head = head.next;
+    size--;
+    return val;
   }
 
   public void print(){
@@ -96,6 +108,10 @@ public class LinkedList1 {
     l1.addMiddle(3, 5);
     l1.print();
 
+    System.out.println(l1.size);
+
+    System.out.println("Deleted Element: "+ l1.deleteFirst());
+    l1.print();
     System.out.println(l1.size);
     
   }
