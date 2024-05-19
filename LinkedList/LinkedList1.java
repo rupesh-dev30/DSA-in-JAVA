@@ -166,6 +166,32 @@ public class LinkedList1 {
     head = prev;
   }
 
+  public void deleteNthFromEnd(int n){
+    //Calculate size
+    int s = 0;
+    Node temp = head;
+    while(temp != null){
+      temp = temp.next;
+      s++;
+    }
+
+    if(n == s){   //element to be deleted from first
+      head = head.next;
+      return;
+    }
+
+    int i = 1;
+    int iToFind = s - n;
+    Node prev = head;
+    while(i < iToFind){
+      prev = prev.next;
+      i++;
+    }
+    prev.next = prev.next.next;
+    return;
+  }
+  
+
   public static void main(String[] args) {
     LinkedList1 l1 = new LinkedList1();
     l1.print();
