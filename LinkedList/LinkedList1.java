@@ -62,6 +62,11 @@ public class LinkedList1 {
     temp.next = newNode;
   }
 
+  //Delete first node in linked list
+  public void deleteFirst(){
+    head = head.next;
+  }
+
   public void print(){
     Node temp = head;
     if(head == null){
@@ -75,6 +80,7 @@ public class LinkedList1 {
     }
     System.out.println("null");
   }
+
 
   public static void main(String[] args) {
     LinkedList1 l1 = new LinkedList1();
