@@ -91,14 +91,19 @@ public class LinkedList1 {
       return val;
     }
 
-    Node temp = head;
-    while(temp.next != tail){
-      temp = temp.next;
+    // Node temp = head;
+    // while(temp.next != tail){
+    //   temp = temp.next;
+    // }
+
+    Node prev = head;
+    for(int i=0; i<size-2 ; i++){
+      prev = prev.next;
     }
 
-    int val = temp.next.data;
-    temp.next = null;
-    tail = temp;
+    int val = prev.next.data;
+    prev.next = null;
+    tail = prev;
     size--;
     return val;
   }
@@ -142,6 +147,10 @@ public class LinkedList1 {
     l1.print();
     System.out.println(l1.size);
     
+    System.out.println("Delete Element: "+ l1.deleteLast());
+    l1.print();
+    System.out.println(l1.size);
+
     System.out.println("Delete Element: "+ l1.deleteLast());
     l1.print();
     System.out.println(l1.size);
