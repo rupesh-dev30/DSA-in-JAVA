@@ -136,6 +136,22 @@ public class LinkedList1 {
     return -1;
   }
 
+  public int recurssiveSearch(Node head, int key){
+    if(head == null){
+      return -1;
+    }
+
+    if(head.data == key){
+      return 0;
+    }
+
+    int index = recurssiveSearch(head.next, key);
+    if(index == -1){
+      return -1;
+    }
+    return index + 1;
+  }
+
   public static void main(String[] args) {
     LinkedList1 l1 = new LinkedList1();
     l1.print();
@@ -169,7 +185,9 @@ public class LinkedList1 {
     // System.out.println(l1.size);
 
 
-    System.out.println(l1.iterativeSearch(5));
-    System.out.println(l1.iterativeSearch(10));
+    // System.out.println(l1.iterativeSearch(5));
+    // System.out.println(l1.iterativeSearch(10));
+    System.out.println(l1.recurssiveSearch(head,5));
+    System.out.println(l1.recurssiveSearch(head,10));
   }
 }
