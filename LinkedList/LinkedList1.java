@@ -122,6 +122,19 @@ public class LinkedList1 {
     System.out.println("null");
   }
 
+  public int iterativeSearch(int key){
+    Node temp = head;
+    int i = 0;
+    while(temp != null){
+      if(temp.data == key){
+        return i;
+      }
+      temp = temp.next;
+      i++;
+    }
+
+    return -1;
+  }
 
   public static void main(String[] args) {
     LinkedList1 l1 = new LinkedList1();
@@ -141,18 +154,22 @@ public class LinkedList1 {
     l1.addMiddle(3, 7);
     l1.print();
 
-    System.out.println(l1.size);
+    // System.out.println(l1.size);
 
-    System.out.println("Deleted Element: "+ l1.deleteFirst());
-    l1.print();
-    System.out.println(l1.size);
+    // System.out.println("Deleted Element: "+ l1.deleteFirst());
+    // l1.print();
+    // System.out.println(l1.size);
     
-    System.out.println("Delete Element: "+ l1.deleteLast());
-    l1.print();
-    System.out.println(l1.size);
+    // System.out.println("Delete Element: "+ l1.deleteLast());
+    // l1.print();
+    // System.out.println(l1.size);
 
-    System.out.println("Delete Element: "+ l1.deleteLast());
-    l1.print();
-    System.out.println(l1.size);
+    // System.out.println("Delete Element: "+ l1.deleteLast());
+    // l1.print();
+    // System.out.println(l1.size);
+
+
+    System.out.println(l1.iterativeSearch(5));
+    System.out.println(l1.iterativeSearch(10));
   }
 }
