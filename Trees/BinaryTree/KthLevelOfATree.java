@@ -46,6 +46,10 @@ public class KthLevelOfATree {
   // }
 
   public static void kthLevelRec(Node root, int level, int k){
+    if(root == null){
+      return;
+    }
+
     if(level == k){
       System.out.print(root.data + " ");
       return;
