@@ -8,8 +8,8 @@
       CBT is a BT in which all the levels are completley filled except possibly the last one, which is filled from left to right
 
     Heap Order Property: 
-      Children >= Parent(maxHeap)
-      Children <= Parent(minHeap)
+      Children >= Parent(minHeap)
+      Children <= Parent(maxHeap)
 */
 
 public class Heap {
